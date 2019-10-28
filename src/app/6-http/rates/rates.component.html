@@ -1,0 +1,21 @@
+<h2>
+  Currency Rates.
+</h2>
+<h3>
+  From Euro to the world
+</h3>
+<pre>{{ currentEuroRates | json }}</pre>
+<input value="Save Rates"
+       class="primary"
+       type="button"
+       (click)="postRatesByDate()" />
+<input value="Refresh Rates"
+       class="primary"
+       type="button"
+       (click)="getRatesByDate()" />
+<pre>{{ ratesByDate | json }}</pre>
+<input value="Delete Rates By Date"
+       class="secondary"
+       type="button"
+       (click)="deleteRatesByDate()" />
+<h3><a [routerLink]="['observables']">Observables</a></h3>

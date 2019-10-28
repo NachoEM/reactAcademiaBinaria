@@ -1,0 +1,11 @@
+{
+  "spellright.language": [
+    "en",
+    "es"
+  ],
+  "workbench.colorCustomizations": {
+    "editorError.foreground": "#ff9900",
+    "editorWarning.foreground": "#BBCBC2",
+    "editorInfo.foreground": "#9ea39e"
+  }
+}

@@ -1,0 +1,16 @@
+<h2>
+  Notes sender
+</h2>
+<form>
+  <fieldset>
+    <section>
+      <label for="note">Note</label>
+      <input name="note"
+             [(ngModel)]="notification.note" />
+    </section>
+  </fieldset>
+  <button (click)="send()">Send</button>
+</form>
+<h3>
+  <a [routerLink]="['../receiver']">Go to receiver</a>
+</h3>
